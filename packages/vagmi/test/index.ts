@@ -63,5 +63,6 @@ export function renderComposable<T>(
 export {
   setupClient,
   actConnect,
+  getProvider,
   unrefAllProperties,
 } from './utils';
