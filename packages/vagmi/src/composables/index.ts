@@ -29,3 +29,7 @@ export {
 export {
   useWaitForTransaction,
 } from './transactions';
+
+export {
+  useContract,
+} from './contracts';

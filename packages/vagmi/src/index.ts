@@ -27,6 +27,7 @@ export {
   useSignMessage,
   useSignTypedData,
   useWaitForTransaction,
+  useContract,
 } from './composables';
 
 export {

@@ -9,7 +9,7 @@ export type SignerOrProvider = Signer | Provider | null | undefined;
 export interface UseContractConfig {
   addressOrName: string
   contractInterface: ContractInterface
-  signerOrProvider?: Ref<SignerOrProvider> | SignerOrProvider
+  signerOrProvider?: Readonly<Ref<SignerOrProvider>> | Readonly<SignerOrProvider>
 }
 
 export const useContract = <Contract = any>({

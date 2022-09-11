@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Contract from './Contract.vue';
 import { useAccount, useBalance, useEnsName } from 'vagmi';
 import { watchEffect } from 'vue';
 
@@ -17,4 +18,5 @@ watchEffect(() => {
     {{ ensNameData ?? address }}
     {{ ensNameData ? ` (${address})` : null }}
   </div>
+  <Contract />
 </template>
