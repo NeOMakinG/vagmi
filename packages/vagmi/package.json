@@ -88,6 +88,7 @@
     "prepublishOnly": "pnpm run build",
     "release": "bumpp --commit --push --tag && npm publish",
     "test": "vitest run",
+    "test:update": "vitest -u",
     "typecheck": "tsc --noEmit"
   },
   "peerDependencies": {
@@ -100,7 +101,7 @@
     "@wagmi/core": "^0.4.4",
     "@walletconnect/ethereum-provider": "^1.7.8",
     "klona": "^2.0.5",
-    "vue-query": "2.0.0-beta.1"
+    "vue-query": "2.0.0-beta.10"
   },
   "devDependencies": {
     "@antfu/ni": "^0.16.2",

@@ -379,7 +379,7 @@ describe('useNetwork', () => {
         result.network.switchNetwork.value?.(4);
       } catch (error) {
         expect(error).toMatchInlineSnapshot(
-          '[TypeError: result.current.network.switchNetwork is not a function]',
+          '[TypeError: Cannot read property \'value\' of undefined]',
         );
       }
     });

@@ -32,4 +32,5 @@ export {
 
 export {
   useContract,
+  useContractRead,
 } from './contracts';
